@@ -139,7 +139,7 @@ best service
   background: var(--secondary-clr-1);
 }
 .best-service-info-container{
-  width: 90%;
+  width: 95%;
   text-align: center;
   display: grid;
   margin: auto;
@@ -161,7 +161,8 @@ best service
 
 
 .best-service-info-box-container{
-  max-width: 90%;
+  width: 90%;
+  max-width: 300px;
   margin: 2rem auto;
   display: grid;
   height: 370px;
