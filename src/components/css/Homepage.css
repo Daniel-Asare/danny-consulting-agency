@@ -418,6 +418,7 @@ team slider
   display: grid;
   place-items: center;
   padding: 4rem;
+  text-align: center;
   /* margin-bottom: 0; */
   
 }
