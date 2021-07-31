@@ -122,7 +122,8 @@ best service
   justify-content: space-around;
   max-width: 300px;
   color: var(--secondary-clr-1);
-  text-transform: uppercase;margin-bottom: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
   font-family: var(--primary-ff);
 }
 
@@ -141,7 +142,9 @@ best service
   max-width: 100%;
   text-align: center;
   display: grid;
+  place-items: center;
   margin-top: 3rem;
+  border: 2px solid brown;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
 
 }
