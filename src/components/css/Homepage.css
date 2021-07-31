@@ -100,6 +100,7 @@ best service
   width: 95%;
   height: auto;
   margin: 5rem auto;
+  border: 2px solid green;
 }
 
 .best-service-head-text{
