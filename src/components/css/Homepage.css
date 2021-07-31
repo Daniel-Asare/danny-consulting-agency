@@ -320,7 +320,7 @@ case
 }
 
 .case-head{
-  max-width: 400px;
+  max-width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -354,7 +354,7 @@ case
    width: 90%;
    gap: 2rem;
    /* border: 2px solid; */
-   grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
    margin: 4rem auto;
  }
 

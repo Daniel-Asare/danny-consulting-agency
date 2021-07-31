@@ -83,7 +83,7 @@ const Homepage =()=> {
       <div className="case-container">
         <div className="case-head">
           <div className="case-underline"></div>
-          <p>our portfolio of cases</p>
+          <p>our cases</p>
         </div>
         <h1>Featured Case Study</h1>
         <div className="case-cover-container">
