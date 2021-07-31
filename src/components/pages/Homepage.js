@@ -99,7 +99,7 @@ const Homepage =()=> {
           </div>
 
           <div className="case-cover">
-            <img src="https://images.unsplash.com/photo-1571844307880-751c6d86f3f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1417&q=80" alt="img" />
+            <img src="https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="img" />
             <div className="case-cover-detail">
               <div className="case-cover-detail-head">
                 <div className="case-cover-detail-underline"></div>
