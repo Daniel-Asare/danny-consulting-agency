@@ -197,7 +197,7 @@ best service image
   background: var(--secondary-clr);
   max-width: 100%;
   height: auto;
-  border: 3px solid sienna;
+  /* border: 3px solid sienna; */
 }
 
 .best-service-image-container-1{
@@ -208,7 +208,7 @@ best service image
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
-  border: 2px solid rgb(231, 55, 55);
+  /* border: 2px solid rgb(231, 55, 55); */
 }
 
 
@@ -236,7 +236,7 @@ best service image
   width: 100%;
   height: auto;
   padding: 2rem;
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
 }
 
 
