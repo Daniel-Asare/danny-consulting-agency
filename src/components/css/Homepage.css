@@ -146,7 +146,6 @@ best service
   width: 100%;
   text-align: center;
   display: grid;
-  /* margin: auto; */
   margin-top: 3rem;
   border: 2px solid brown;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
@@ -165,7 +164,7 @@ best service
 
 .box-container{
   /* position: relative; */
-  width: 90%;
+  width: 80%;
   margin: 7px auto;
   height: 350px;
   border: 2px solid green;
