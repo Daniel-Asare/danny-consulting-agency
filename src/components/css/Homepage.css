@@ -139,7 +139,7 @@ best service
   background: var(--secondary-clr-1);
 }
 .best-service-info-container{
-  max-width: 100%;
+  width: 100%;
   text-align: center;
   display: grid;
   place-items: center;
