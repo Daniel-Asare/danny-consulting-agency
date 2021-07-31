@@ -1,13 +1,32 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700;900&family=Work+Sans&display=swap');
+
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+:root{
+  --primary-ff: 'Bitter',serif;
+  --secondary-ff:'Work Sans',sans-serif;
+  --primary-clr: rgb(255, 255, 255);
+  --secondary-clr:   #080808;
+  --secondary-clr-1: #61fa36;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--primary-clr);
 }

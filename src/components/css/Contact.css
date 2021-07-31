@@ -1,0 +1,127 @@
+.contact-hero{
+  background:linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.801)), url('https://images.unsplash.com/photo-1517292987719-0369a794ec0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80') center/cover no-repeat;
+  width: 100%;
+  height: 90vh;
+  color: var(--primary-clr);
+  font-family: var(--secondary-ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+
+
+.contact-hero h1{
+  font-size: 3rem;
+}
+
+.form-text{
+  text-align: left;
+  font-size: 2.6rem;
+  margin-left: 2rem;
+}
+
+.form-container {
+/* border:  2px solid; */
+width: 80%;
+min-height: 500px;
+margin: 3rem auto;
+/* border: 3px solid yellow; */
+display: grid;
+gap: 2rem;
+grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+
+form{
+  min-height: auto;
+  /* border: 3px solid red; */
+
+}
+
+.form-group{
+  max-width: 400px;
+  margin:2rem auto;
+}
+
+.form-group textarea{
+  width: 100%;
+  outline: none;
+  resize: none;
+  border-radius: 5px;
+  overflow: auto;
+  border: none;
+  box-shadow: inset 2px 2px 4px rgb(225, 228, 225),
+  inset -2px -2px 4px rgb(225, 228, 225);
+  padding: 10px 15px;
+}
+
+.form-group input[type=text]{
+ width: 100%;
+ height: 30px;
+ outline: none;
+ border-radius: 5px;
+ border: none;
+ box-shadow: inset 2px 2px 4px rgb(225, 228, 225),
+ inset -2px -2px 4px rgb(225, 228, 225);
+ padding: 10px 15px;
+
+}
+
+.form-group input[type=email]{
+  width: 100%;
+  height: 30px;
+  outline: none;
+ border-radius: 5px;
+ border: none;
+ box-shadow: inset 2px 2px 4px rgb(225, 228, 225),
+ inset -2px -2px 4px rgb(225, 228, 225);
+ padding: 10px 15px;
+}
+
+::-webkit-input-placeholder{
+  font-family: var(--secondary-ff);
+  
+}
+
+.contact-btn{
+  display: inline-block;
+  border: 0.5px solid rgb(51, 50, 50);
+  padding:10px 30px;
+  color: var(--secondary-clr);
+  font-family: var(--secondary-ff);
+  border-radius: 5px;
+}
+
+.contact-btn:hover{
+  background: var(--secondary-clr-1);
+  color: var(--primary-clr);
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.contact-address-container{
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+
+}
+
+.address-contact{
+  display: flex;
+  align-items: center;
+  max-width: 270px;
+  font-family: var(--secondary-ff);
+  margin:3rem 0;
+  margin-left: 0;
+  text-align: left;
+  padding: 0;
+}
+
+.address-contact span{
+  font-size: 3rem;
+  display: inline-block;
+  margin-right: 0.6rem;
+  color: rgb(75, 75, 74);
+}

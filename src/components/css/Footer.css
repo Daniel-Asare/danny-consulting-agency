@@ -1,0 +1,88 @@
+.footer{
+  background: var(--secondary-clr);
+  width: 100%;
+  color: var(--primary-clr);
+  border: 2px solid var(--secondary-clr);
+  font-family: var(--secondary-ff) ;
+}
+
+.footer-container{
+  width: 90%;
+  margin: 2rem auto;
+  border-bottom: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  padding-bottom: 2rem;
+}
+
+.footer-text{
+ margin-top: 2rem; 
+ max-width: 350px;
+ text-align: left;
+}
+
+.footer-text h2{
+  margin-bottom: 2rem;
+
+}
+
+.footer-text p{
+  margin-bottom: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.footer-text b{
+  color: var(--secondary-clr-1);
+}
+
+.footer-text input{
+  outline: none;
+  border: none;
+  background: rgba(238, 234, 234, 0.082);
+  height: 37px;
+  width: 250px;
+  color: var(--primary-clr);
+}
+
+.footer-btn{
+  display: inline-block;
+  background: rgba(238, 234, 234, 0.082);
+  color: var(--primary-clr);
+  padding: 0.6rem;
+  margin-top: 1rem;
+  
+}
+
+.footer-text input[type="email"]{
+ font-family: var(--secondary-ff);
+ font-size: 13px;
+ padding: 0.6rem;
+}
+
+
+.footer-text p:hover{
+  color: var(--secondary-clr-1);
+}
+
+.footer-foot{
+  width: 90%;
+  margin:2rem auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-social{
+  display: flex;
+  width: 100px;
+  justify-content: space-evenly;
+}
+
+.footer-social span{
+  cursor: pointer;
+}
+
+.footer-social span:hover{
+  color: var(--secondary-clr-1);
+}
