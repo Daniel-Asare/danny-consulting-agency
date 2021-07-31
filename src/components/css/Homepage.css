@@ -139,10 +139,9 @@ best service
   background: var(--secondary-clr-1);
 }
 .best-service-info-container{
-  width: 100%;
+  width: 80%;
   text-align: center;
   display: grid;
-  place-items: center;
   margin-top: 3rem;
   border: 2px solid brown;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
