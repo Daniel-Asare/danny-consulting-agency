@@ -55,16 +55,20 @@
   /* margin: auto; */
   display: grid;
   place-items: center;
+  gap: 2rem;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
   margin-top: 3rem;
   /* border: 2px solid red; */
 }
 
 .best-services-box-container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
   display: grid;
   place-items: center;
   color: var(--primary-clr);
-  max-width: 350px;
+  /* max-width: 300px; */
   border: 2px solid var(--secondary-clr-1);
   margin-bottom: 2rem;
 }
