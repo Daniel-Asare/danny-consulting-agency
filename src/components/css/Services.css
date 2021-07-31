@@ -1,6 +1,6 @@
 .services-container{
   width: 100%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .services-hero{
@@ -57,7 +57,7 @@
   place-items: center;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
   margin-top: 3rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .best-services-box-container{
