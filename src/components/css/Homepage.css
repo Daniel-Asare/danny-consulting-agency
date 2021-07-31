@@ -424,12 +424,20 @@ team slider
 }
 
 .team-slider-cover{
- max-width: 600px;
- margin: auto;
- display: grid;
- place-items: center;
- border: 2px solid rgb(60, 0, 128);
- /* height: 600px; */
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  /* height: 600px; */
+  /* border: 2px solid rgb(60, 0, 128); */
+}
+
+@media (min-width:786px){
+  .team-slider-cover{
+    max-width: 600px;
+}
+
 }
 
 .team-slider-image{
