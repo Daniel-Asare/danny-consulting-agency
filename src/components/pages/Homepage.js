@@ -34,37 +34,29 @@ const Homepage =()=> {
         <div className="best-service-info-container">
           <div className="best-service-info-box-container">
             <div className="box-container">
-            <div className="best-service-info-box">
                 <span className="best-service-icon">
                   <SiParitysubstrate/>
                   </span>
                 <h2>Strategy and Planning</h2> 
                 <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
-            </div>
           </div>
-          </div>
-          <div className="best-service-info-box-container">
+          </div>      
             <div className="box-container">
-            <div className="best-service-info-box">
                 <span className="best-service-icon">
                   <AiTwotoneInsurance/>
                   </span>
                 <h2>Insurance Service</h2> 
                 <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
-            </div>
           </div>
-          </div>
-          <div className="best-service-info-box-container">
+          
             <div className="box-container">
-            <div className="best-service-info-box">
                 <span className="best-service-icon">
                   <FaHandsHelping/>
                   </span>
                 <h2>Audit and Evaluation</h2> 
                 <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
-            </div>
           </div>
-          </div>
+
         </div>
       </div>
       {/* Best services image */}
