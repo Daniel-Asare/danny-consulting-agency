@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/danny-consulting-agency/static/css/main.2c845526.chunk.css",
+    "main.js": "/danny-consulting-agency/static/js/main.aedda92f.chunk.js",
+    "main.js.map": "/danny-consulting-agency/static/js/main.aedda92f.chunk.js.map",
+    "runtime-main.js": "/danny-consulting-agency/static/js/runtime-main.f5bbd4e5.js",
+    "runtime-main.js.map": "/danny-consulting-agency/static/js/runtime-main.f5bbd4e5.js.map",
+    "static/css/2.48716cfc.chunk.css": "/danny-consulting-agency/static/css/2.48716cfc.chunk.css",
+    "static/js/2.d0d8443f.chunk.js": "/danny-consulting-agency/static/js/2.d0d8443f.chunk.js",
+    "static/js/2.d0d8443f.chunk.js.map": "/danny-consulting-agency/static/js/2.d0d8443f.chunk.js.map",
+    "index.html": "/danny-consulting-agency/index.html",
+    "static/css/2.48716cfc.chunk.css.map": "/danny-consulting-agency/static/css/2.48716cfc.chunk.css.map",
+    "static/css/main.2c845526.chunk.css.map": "/danny-consulting-agency/static/css/main.2c845526.chunk.css.map",
+    "static/js/2.d0d8443f.chunk.js.LICENSE.txt": "/danny-consulting-agency/static/js/2.d0d8443f.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/danny-consulting-agency/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5bbd4e5.js",
+    "static/css/2.48716cfc.chunk.css",
+    "static/js/2.d0d8443f.chunk.js",
+    "static/css/main.2c845526.chunk.css",
+    "static/js/main.aedda92f.chunk.js"
+  ]
+}
