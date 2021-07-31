@@ -197,6 +197,7 @@ best service image
   background: var(--secondary-clr);
   max-width: 100%;
   height: auto;
+  border: 3px solid sienna;
 }
 
 .best-service-image-container-1{
@@ -205,10 +206,11 @@ best service image
   height: auto;
   margin: 2rem auto;
   display: grid;
-  /* gap: 2rem; */
+  gap: 2rem;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
   border: 2px solid rgb(231, 55, 55);
 }
+
 
 
 .best-service-img{
@@ -219,9 +221,22 @@ best service image
   height: 400px;
 }
 
+@media (min-width:786px){
+  .best-service-image-container-1{
+    width: 80%;
+    height: auto;
+  }
+
+  .best-service-img{
+    height: 100%;
+  }
+
+}
 .best-services-image-info-container{
+  width: 100%;
   height: auto;
   padding: 2rem;
+  border: 2px solid blueviolet;
 }
 
 
@@ -346,7 +361,7 @@ case
  .case-cover{
    width: 100%;
    height: auto;
-   max-width: 500px;
+   /* max-width: 500px; */
    margin: auto;
  }
 
