@@ -1,5 +1,5 @@
 .homepage{
-  width: 100%;
+  max-width: 100%;
 }
 
 .homepage-hero{
@@ -135,7 +135,8 @@ best service
   background: var(--secondary-clr-1);
 }
 .best-service-info-container{
-  width: 100%;
+  max-width: 100%;
+  text-align: center;
   display: grid;
   margin-top: 3rem;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
