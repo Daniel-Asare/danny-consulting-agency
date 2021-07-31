@@ -139,9 +139,10 @@ best service
   background: var(--secondary-clr-1);
 }
 .best-service-info-container{
-  width: 80%;
+  width: 90%;
   text-align: center;
   display: grid;
+  margin: auto;
   margin-top: 3rem;
   border: 2px solid brown;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
@@ -160,7 +161,7 @@ best service
 
 
 .best-service-info-box-container{
-  width: 90%;
+  width: 100%;
   margin: 2rem auto;
   display: grid;
   height: 370px;
@@ -217,13 +218,13 @@ best service image
 
 .best-service-image-container-1{
   background: var(--secondary-clr);
-  width: 80%;
+  width: 95%;
   height: auto;
   margin: 2rem auto;
   display: grid;
-  gap: 2rem;
+  /* gap: 2rem; */
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
-  /* border: 2px solid rgb(177, 35, 35); */
+  border: 2px solid rgb(231, 55, 55);
 }
 
 
