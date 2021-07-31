@@ -68,7 +68,7 @@
   display: grid;
   place-items: center;
   color: var(--primary-clr);
-  /* max-width: 300px; */
+  max-width: 330px;
   border: 2px solid var(--secondary-clr-1);
   margin-bottom: 2rem;
 }
