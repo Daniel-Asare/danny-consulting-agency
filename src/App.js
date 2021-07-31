@@ -10,7 +10,7 @@ import Contact from 'components/pages/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Router>
     <Navbar/>
     <PageLayout>
