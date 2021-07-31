@@ -10,7 +10,7 @@ import Contact from 'components/pages/Contact';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Router>
     <Navbar/>
     <PageLayout>
@@ -21,7 +21,7 @@ function App() {
     </PageLayout>
     <Footer/>
     </Router>
-    </>
+    </div>
   );
 }
 
