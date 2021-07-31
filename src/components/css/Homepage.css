@@ -325,7 +325,7 @@ case
   align-items: center;
   justify-content: space-around;
   margin-bottom: 1.4rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .case-underline{
@@ -428,7 +428,7 @@ team slider
  margin: auto;
  display: grid;
  place-items: center;
- /* border: 2px solid; */
+ border: 2px solid rgb(60, 0, 128);
  /* height: 600px; */
 }
 
