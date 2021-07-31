@@ -201,7 +201,7 @@ best service image
 
 .best-service-image-container-1{
   background: var(--secondary-clr);
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: 2rem auto;
   display: grid;
