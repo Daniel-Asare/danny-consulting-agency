@@ -206,7 +206,7 @@ best service image
 
 .best-service-image-container{
   background: var(--secondary-clr);
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -226,6 +226,7 @@ best service image
   display: block;
   object-fit: cover;
   width: 100%;
+  max-width: 350px;
   height: 400px;
 }
 
