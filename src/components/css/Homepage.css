@@ -320,7 +320,7 @@ case
 }
 
 .case-head{
-  max-width: 200px;
+  max-width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-around;
