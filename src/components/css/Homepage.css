@@ -462,8 +462,10 @@ team slider
 
 .more-about{
   width: 100%;
-  height: auto;
-  padding: auto;
+  margin: 4rem auto;
+  min-height: auto;
+  padding: 6rem auto;
+  text-align: center;
 }
 
 .more-about h1{
