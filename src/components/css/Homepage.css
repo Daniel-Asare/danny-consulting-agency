@@ -1,7 +1,6 @@
 .homepage{
   width: 100%;
   max-width: 100%;
-  border: 2px solid red;
 }
 
 .homepage-hero{
@@ -100,7 +99,6 @@ best service
   width: 100%;
   height: auto;
   margin: 5rem auto;
-  border: 2px solid green;
 }
 
 .best-service-head-text{
@@ -147,7 +145,6 @@ best service
   text-align: center;
   display: grid;
   margin-top: 3rem;
-  border: 2px solid brown;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
 
 }
